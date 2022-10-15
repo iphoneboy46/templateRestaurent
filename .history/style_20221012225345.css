@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pacifico&family=Poppins:wght@200;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:wght@200&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    height: 1000vh;
+}
+
+.logo {
+    width: 40%;
+}
+
+.header {
+    background-image: url(images/header.png);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.menu__items li a {
+    font-size: 20px;
+}
+
+
+.item--search i {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.header__content {
+    width: 435px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+.header__content h1 {
+    color: #ffcc00;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.header__content p {
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__content .btn {
+    background-color: #ffcc00;
+    font-weight: 800;
+    padding: 10px 50px;
+}
+
+
+.section__best-seller {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.section__best-seller h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.section__best-seller p {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section__best-seller--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__best-seller--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__best-seller--item img {
+    width: 100%;
+    height: 100%;
+}
+
+.section__best-seller--item h2 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bolder;
+}
+
+.section__Oriental {
+    background-image: url(images/Design3.png);
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding:50px;
+   
+}
+
+.section__Oriental--content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__Oriental--img {
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.section__Oriental--img img {
+    width: 100%;
+    height: 100%;
+}
+
+.section__Oriental--title {
+    margin-left: 100px;
+}
+
+
+.section__Oriental--title h1 {
+    color: #ffcc00;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.section__Oriental--title p {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section__Oriental--title .btn {
+    background-color: #ffcc00;
+    font-weight: 800;
+    padding: 10px 50px;
+}
+
+.section__Statistics {
+    width: 100%;
+    background-image: url(images/Design2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 5;
+}
+
+
+.section__Statistics--title h1 {
+    color: #ffcc00;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.section__Statistics--title p {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.section__Statistics--img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.section__Statistics--img img{
+    width: 200px;
+}
+
+
+.section__Chicken {
+    position: relative;
+    margin-top: 110px;
+    background-color: white;
+    width: 100%;
+    background-image: url(images/Design4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    z-index: 2;
+    padding: 50px;
+}
+
+.section__Chicken--content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__Chicken--title h1{
+    color: #ffcc00;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+
+.section__Chicken--title p{
+    text-align: start;
+    color: white;
+    margin-top: 30px;
+}
+
+.section__Chicken .btn {
+    background-color: #ffcc00;
+    font-weight: 800;
+    padding: 10px 50px;
+}
+
+.section__Chicken--img{
+    width: 100%;
+    height: 100%;
+}
+
+.section__Chicken--img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section__comment--title {
+    margin: auto;
+    width: 50%;
+    padding-top:450px;
+}
+
+.section__comment--title p{
+    font-size:35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section__comment--title h1{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Dancing Script', sans-serif;
+}
